@@ -9,9 +9,9 @@ function App() {
         <Link to="/" className="nav-logo">MyPortfolio</Link>
 
         <div className="nav-links">
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
+          <a href="/my-portfolio#about">About</a>
+          <a href="/my-portfolio#projects">Projects</a>
+          <a href="/my-portfolio">Contact</a>
           <Link to="/blog">Blog</Link>
         </div>
       </nav>
