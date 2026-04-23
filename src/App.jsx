@@ -11,7 +11,7 @@ function App() {
         <div className="nav-links">
           <a href="/my-portfolio#about">About</a>
           <a href="/my-portfolio#projects">Projects</a>
-          <a href="/my-portfolio">Contact</a>
+          <a href="/my-portfolio#contact">Contact</a>
           <Link to="/blog">Blog</Link>
         </div>
       </nav>
