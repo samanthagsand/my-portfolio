@@ -29,19 +29,31 @@ function Home() {
           />
           <ProjectCard
             title="Budget Tracker Dashboard"
-            desc="This project is a multi-sheet budget tracking dashboard built in Google Sheets to manage income, expenses, and savings.
-
-It helps users monitor spending habits, track financial goals, and visualize how money is distributed across categories."
+            desc="This project is a multi-sheet budget tracking dashboard built in Google Sheets to manage income, expenses, and savings. It helps users monitor spending habits, track financial goals, and visualize how money is distributed across categories."
           />
         </div>
       </section>
 
       {/* Contact Section */}
       <section id="contact" className="section">
-        <h2>Contact</h2>
-        <p>Email: samanthasandoval191@yahoo.com</p>
-        <p>GitHub: github.com/samanthagsand</p>
-      </section>
+  <h2>Contact</h2>
+  <p>Feel free to reach out or view my work below!</p>
+
+  <div className="contact-buttons">
+    <a href="mailto:samanthasandoval191@yahoo.com" className="contact-btn">
+      Email Me
+    </a>
+
+    <a
+      href="https://github.com/samanthagsand"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="contact-btn"
+    >
+      GitHub
+    </a>
+  </div>
+</section>
     </main>
   );
 }
